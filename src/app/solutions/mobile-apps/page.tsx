@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { Smartphone, Code, SmartphoneCharging, SmartphoneNfc } from 'lucide-react';
+import { Smartphone } from 'lucide-react';
 
 export default function MobileAppsPage() {
   return (
@@ -47,7 +47,7 @@ export default function MobileAppsPage() {
               >
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-50">
-                    <SmartphoneCharging className="h-6 w-6 text-blue-600" />
+                    <Smartphone className="h-6 w-6 text-blue-600" />
                   </div>
                   Android Development
                 </dt>
@@ -64,7 +64,7 @@ export default function MobileAppsPage() {
               >
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-50">
-                    <Code className="h-6 w-6 text-blue-600" />
+                    <Smartphone className="h-6 w-6 text-blue-600" />
                   </div>
                   Cross-Platform Solutions
                 </dt>
@@ -81,7 +81,7 @@ export default function MobileAppsPage() {
               >
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-50">
-                    <SmartphoneNfc className="h-6 w-6 text-blue-600" />
+                    <Smartphone className="h-6 w-6 text-blue-600" />
                   </div>
                   Mobile Backend
                 </dt>
