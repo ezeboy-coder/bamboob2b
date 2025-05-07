@@ -22,4 +22,16 @@ const config = {
     return config;
   },
 };
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/:path*', // Match all routes
+        destination: 'https://newsite.com', // Target URL
+        permanent: true,
+      },
+    ];
+  },
+};
+
 export default config;
