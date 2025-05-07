@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://techware.ng",
+      "permanent": true
+    }
+  ]
+}
