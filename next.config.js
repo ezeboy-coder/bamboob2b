@@ -27,7 +27,7 @@ module.exports = {
     return [
       {
         source: '/:path*', // Match all routes
-        destination: 'https://newsite.com', // Target URL
+        destination: 'https://techware.ng', // Target URL
         permanent: true,
       },
     ];
