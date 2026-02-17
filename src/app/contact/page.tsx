@@ -4,30 +4,16 @@ import { useState } from 'react';
 import { MapPin, Phone, Mail, CheckCircle } from 'lucide-react';
 
 const offices = [
+ 
   {
     id: 1,
-    name: "Lagos Office",
-    address: "Plot 1234, Victoria Island, Lagos, Nigeria",
-    phone: "+234 812 345 6789",
-    email: "lagos@bamboob2b.com",
-    icon: <MapPin className="h-6 w-6 text-blue-600" />,
-  },
-  {
-    id: 2,
     name: "Abuja Office",
-    address: "Suite 56, Central Business District, Abuja, Nigeria",
-    phone: "+234 809 876 5432",
-    email: "abuja@bamboob2b.com",
+    address: "Novare Central, Zone 5 Dalaba St, Wuse, Abuja, Federal Capital Territory",
+    phone: "+2347 0599 46545",
+    email: "ict@bamboob2b.com",
     icon: <MapPin className="h-6 w-6 text-blue-600" />,
   },
-  {
-    id: 3,
-    name: "US Office",
-    address: "123 Tech Valley Drive, Suite 789, San Francisco, CA 94105, USA",
-    phone: "+1 (415) 555-0123",
-    email: "usa@bamboob2b.com",
-    icon: <MapPin className="h-6 w-6 text-blue-600" />,
-  },
+  
 ];
 
 export default function ContactPage() {
