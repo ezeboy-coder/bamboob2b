@@ -57,7 +57,7 @@ export default function ContactPage() {
         
         <div className="mx-auto mt-16 grid max-w-7xl grid-cols-1 gap-x-8 gap-y-12 lg:grid-cols-3" data-unique-id="3c08040d-aea1-416d-9aba-d3dbd6cb8320" data-loc="40:8-40:98" data-file-name="app/contact/page.tsx">
           <div data-unique-id="ac8c020a-55dd-41bf-9044-e50248227fcb" data-loc="41:10-41:15" data-file-name="app/contact/page.tsx">
-            <h2 className="text-lg font-semibold text-gray-900" data-unique-id="08afda67-2641-4424-bc8b-f4be660b8c92" data-loc="42:12-42:64" data-file-name="app/contact/page.tsx">Our offices</h2>
+            <h2 className="text-lg font-semibold text-gray-900" data-unique-id="08afda67-2641-4424-bc8b-f4be660b8c92" data-loc="42:12-42:64" data-file-name="app/contact/page.tsx">Our office</h2>
             <address className="mt-6 space-y-8 text-base not-italic text-gray-600" data-unique-id="4e855d67-25df-4d00-927c-af0b57d48f3b" data-loc="43:12-43:83" data-file-name="app/contact/page.tsx">
               {offices.map((office) => (
                 <div key={office.id} className="flex gap-x-3" data-unique-id={`${office.id}f1bca1-f6fc-4c69-b6f1-ee4188f0917f`} data-loc={`${office.id}2:14-${office.id}2:44`} data-file-name="app/contact/page.tsx">
